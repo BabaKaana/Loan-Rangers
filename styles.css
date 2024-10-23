@@ -28,10 +28,13 @@ label, input{
 }
 
 input{
-    padding: 0.35rem 0.75rem;
+    background-color: #f0f4f8;
+    color: #333333;
+    padding: 0.4rem 0.8rem;
     border-radius: 0.3rem;
     border: 1px solid black ;
     outline: none;
+    text-align: center;
 }
 
 button{
@@ -39,7 +42,7 @@ button{
     color: white;
     font-size: 1.1rem;
     border: none;
-    padding: 0.5rem 0.9rem;
+    padding: 0.5rem 0.95rem;
     cursor: pointer;
     border-radius: 0.4rem;
 
@@ -96,7 +99,7 @@ div p{
     color: #e0e0e0;
     padding: 0.7rem;
     line-height: 1.6rem;
-    width: 100vw;
+    width: 98vw;
     position: relative;
     bottom: 0;
     margin-bottom: 0;
