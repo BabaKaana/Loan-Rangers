@@ -23,16 +23,19 @@ h1{
     font-size: 2.5rem;
 }
 
-label, input{
+label{
     font-size: 1.4rem;
+    font-weight: 600;
 }
 
 input{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #f0f4f8;
     color: #333333;
-    padding: 0.4rem 0.8rem;
-    border-radius: 0.3rem;
-    border: 1px solid black ;
+    padding: 0.5rem 0.2rem;
+    border-radius: 0.4rem;
+    border: 1px solid #333;
     outline: none;
     text-align: center;
 }
@@ -42,9 +45,9 @@ button{
     color: white;
     font-size: 1.1rem;
     border: none;
-    padding: 0.5rem 0.95rem;
+    padding: 0.45rem 0.9rem;
     cursor: pointer;
-    border-radius: 0.4rem;
+    border-radius: 0.6rem;
 
     &:hover{
         background-color: #0056b3;
@@ -89,16 +92,18 @@ div p{
     color: #ffffff;
     padding: 0.6rem;
     font-weight: 600;
+    letter-spacing: 0.1mm;
 }
 
 .msg{
+    box-sizing: border-box;
     font-size: 1.1rem;
     font-weight: 300;
     background-color: rgb(15, 15, 15);
     color: #e0e0e0;
     padding: 0.7rem 0rem;
     line-height: 1.6rem;
-    width: 98.88vw;
+    width: 98.95vw;
     position: relative;
     bottom: 0;
     margin-bottom: 0;
