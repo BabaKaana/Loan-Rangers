@@ -72,10 +72,11 @@ table{
 }
 
 th{
+    font-family: lato;
     background-color: #007bff;
     color: #ffffff;
     padding: 0.7rem;
-    letter-spacing: 0.2mm;
+    letter-spacing: 0.3mm;
 }
 
 td {
@@ -89,10 +90,11 @@ tr:hover td {
 }
 
 div p{
+    font-family: lato;
     background-color: #007bff;
     color: #ffffff;
     padding: 0.6rem;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 0.1mm;
 }
 
@@ -117,6 +119,16 @@ div p{
 @media (max-width: 400px){
     html{
         font-size: 14px;
+    }
+
+    #output h2{
+        font-size: x-large;
+    }
+
+    button{
+        padding: 0.55rem 1.1rem;
+        font-size: 1.15rem;
+        border-radius: 0.7rem;
     }
 }
 

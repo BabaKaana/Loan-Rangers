@@ -41,7 +41,7 @@ const showData = (friend) => {
         <h2>LandLord's Name: <span>${friend.name}</span></h2>
         <table>
             <th>Entries</th>
-            ${friend.history.map((entry)=>`<tr><td style= "${entry < 0 ? 'background-color: rgba(224, 255, 255, 0.2);' : ''}">${entry}</td></tr>`).join("")}
+            ${friend.history.map((entry)=>`<tr><td style= "${entry < 0 ? 'background-color: rgba(255, 69, 58, 0.2);' : ''}">${entry}</td></tr>`).join("")}
         </table>
         <p>Total: ${friend.total}</p>
     </div>
